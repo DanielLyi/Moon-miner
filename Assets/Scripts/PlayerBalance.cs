@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerBalance : MonoBehaviour
 {
-    private float money;
-    private float hashcoin;
+    public float money;
+    public float hashcoin;
         
     void Start()
     {
