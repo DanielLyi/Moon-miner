@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class MiningCard : MonoBehaviour
 {
+    [SerializeField] private TextMeshProUGUI _textMeshProUGUI;
     [SerializeField] PlayerBalance playerBalance;
-    [SerializeField] float amount;
+    float _amount;
     public int upgradeLvl;
+
     void Start()
     {
         InvokeRepeating("MineHashcoin", 2.0f, 10f);
@@ -15,12 +18,12 @@ public class MiningCard : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        amount = upgradeLvl / 10f;
-       
-    }
-    void MineHashcoin()
-    {
-        playerBalance.hashcoin += amount;
+        _amount = upgradeLvl / 10f;
     }
 
+    void MineHashcoin()
+    {
+        playerBalance.hashcoin += _amount;
+        _textMeshProUGUI.text = playerBalance.hashcoin.ToString();
+    }
 }
