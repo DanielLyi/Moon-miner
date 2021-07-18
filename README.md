@@ -13,7 +13,7 @@ We used Unity Colab as VCS so most of the commits are "invisible" in git
 
 
 # Pitch
-Check out the [video](https://www.youtube.com/watch?v=SynRGfPzQs8)
+Check out the [video](https://youtu.be/vMU5VqDf8J0)
 
 # About the game
 
