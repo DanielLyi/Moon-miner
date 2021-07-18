@@ -12,4 +12,5 @@ We used Unity Colab as VCS so most of the commits are "invisible" in git
 # Pitch
 Check out the [video](https://www.youtube.com/watch?v=SynRGfPzQs8)
 
+# Other questions
 If any problems, please contact danylo.liakh@gmail.com on email, Danylo#1349 or Ilya#3110 on discord
